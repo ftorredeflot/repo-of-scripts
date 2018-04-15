@@ -1,3 +1,4 @@
+import os
 print("This line will be printed.")
 
 # TODO  test phyton
@@ -20,3 +21,6 @@ print(mylist[3])
 # prints out 1,2,3
 for x in mylist:
     print(x)
+
+# os.scandir("/home/ferran")
+os.system("ip -c a")
