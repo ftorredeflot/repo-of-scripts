@@ -14,10 +14,12 @@ mylist = [1, 2, 3]
 
 mylist.append("hola")
 mylist.append(5)
+valor=input()
+mylist.append(valor)
 print(mylist[0]) # prints 1
 print(mylist[1]) # prints 2
 print(mylist[2]) # prints 3
-print(mylist[3])
+print(mylist)
 # prints out 1,2,3
 for x in mylist:
     print(x)
