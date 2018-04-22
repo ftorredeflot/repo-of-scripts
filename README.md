@@ -2,7 +2,7 @@
 
 el script `testports.sh` esta pensado para testear los puertos abiertos de una maquina
 
-#docker-scripts
+# docker-scripts
 Scripts preparados para facilitar la instalación de docker para usar java hipster
 
 el script `docker.sh` debe ejecutarse como usuario _`root`_
