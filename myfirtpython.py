@@ -14,7 +14,7 @@ mylist = [1, 2, 3]
 
 mylist.append("hola")
 mylist.append(5)
-valor=input()
+valor=float(input("un nuemero"))4
 mylist.append(valor)
 print(mylist[0]) # prints 1
 print(mylist[1]) # prints 2
