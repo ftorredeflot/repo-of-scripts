@@ -12,8 +12,6 @@ print(myfloat)
 
 mylist = [1, 2, 3]
 
-mylist.append("hola")
-mylist.append(5)
 valor=float(input("un nuemero"))
 mylist.append(valor)
 print(mylist[0]) # prints 1
