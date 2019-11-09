@@ -39,3 +39,14 @@ Set-Location -Path "C:\"
 Set-Location "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion"
 
 #create registry key
+Get-ItemProperty -path ./PowershellPath -ErrorAction SilentlyContinue
+New-ItemProperty -Path . -Name PowerShellPath -PropertyType String -Value $PSHome
+Get-ItemPropertyValue -path . -name PowerShellPath 
+
+#rename registry key
+Rename-ItemProperty -Path . -Name PowerShellPath -NewName PSHome -PassThru
+Get-ItemPropertyValue -Path . -Name PSHome 
+
+#deleting registry key
+
+Remove-ItemProperty -Path . -Name PSHome
