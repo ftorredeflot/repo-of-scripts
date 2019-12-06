@@ -1,6 +1,7 @@
 # scripts-bash
 
-el script `testports.sh` esta pensado para testear los puertos abiertos de una maquina
+- el script `testports.sh` esta pensado para testear los puertos abiertos de una maquina
+- el script `recreatefolders.sh` esta pensado para recrear una estructura de ficheros sin archivos
 
 # docker-scripts
 Scripts preparados para facilitar la instalación de docker para usar java hipster
